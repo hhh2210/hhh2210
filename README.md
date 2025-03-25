@@ -5,10 +5,9 @@
 -->
 
 ### 📊 GitHub Stats
-![GitHub Stats]((https://github-readme-stats.vercel.app/apihhh2210anuraghazra))
-
+(https://github-readme-stats.vercel.app/api?username=hhh2210)
 ### 💻 Most Used Languages
-![Top Languages](![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/hhh2210anuraghazra))
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhh2210)
 
 ### 🚀 About Me
 - 🔭 I'm currently working on LLL-knowledge:Knowledge Graph,Reasoning,Agent and LLM-based applications.
