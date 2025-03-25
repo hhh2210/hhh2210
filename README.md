@@ -5,15 +5,14 @@
 -->
 
 ### 📊 GitHub Stats
-![GitHub Stats]((https://github-readme-stats.vercel.app/apihhh2210=anuraghazra))
+![GitHub Stats]((https://github-readme-stats.vercel.app/apihhh2210anuraghazra))
 
 ### 💻 Most Used Languages
-![Top Languages](![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/hhh2210=anuraghazra))
+![Top Languages](![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/hhh2210anuraghazra))
 
 ### 🚀 About Me
-- 🔭 I'm currently working on...
-- 🌱 I'm currently learning...
-- 👯 I'm looking to collaborate on...
-- 💬 Ask me about...
-- 📫 How to reach me: ...
+- 🔭 I'm currently working on LLL-knowledge:Knowledge Graph,Reasoning,Agent and LLM-based applications.
+- 🌱 I'm currently learning LLM-based applications.
+- 👯 I'm looking to collaborate on LLM-based applications and related research
+- 📫 How to reach me: hhh2210@gmail.com
 
