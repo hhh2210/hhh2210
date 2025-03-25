@@ -5,10 +5,10 @@
 -->
 
 ### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hhh2210&show_icons=true&theme=radical)
+![GitHub Stats]((https://github-readme-stats.vercel.app/apihhh2210=anuraghazra))
 
 ### 💻 Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hhh2210&layout=compact&theme=radical)
+![Top Languages](![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/hhh2210=anuraghazra))
 
 ### 🚀 About Me
 - 🔭 I'm currently working on...
