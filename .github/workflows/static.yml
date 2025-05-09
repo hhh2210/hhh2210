@@ -31,13 +31,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # 使用 Python 3.x 最新版
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install markdown pygments
+
+      - name: Convert Markdown to HTML
+        run: python scripts/convert_md.py blog
+        # The script is expected to be in <repo_root>/scripts/convert_md.py
+        # It will convert all .md files in the <repo_root>/blog/ directory (and subdirectories)
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: '.' # Upload entire repository (now including generated HTMLs)
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -5,7 +5,7 @@
 -->
 
 ### 📊 GitHub Stats
-(https://github-readme-stats.vercel.app/api?username=hhh2210)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hhh2210)
 ### 💻 Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hhh2210)
 
