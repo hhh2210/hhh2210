@@ -18,4 +18,4 @@ Since my freshman year, I have been dedicated to research in large language mode
 
 🌱I am actively exploring practical applications of LLMs.
 
-👯I am open to collaborations on LLM-based applications and related research.
+👯I am open to collaborations on LLM and ML&RL applications and related research.
