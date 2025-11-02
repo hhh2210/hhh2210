@@ -13,7 +13,7 @@
   
  You can reach me at **hzy2210@gmail.com**.  
 >  
-> I’m a research intern at **Tencent IEG**, where I work on training large language models (mostly 32B) and developing intelligent agents for practical deployment.  
+> I was a research intern at **Tencent IEG**, where I worked on training large language models (mostly 32B) and developing intelligent agents for practical deployment.
 >  
 > Since my freshman year, I’ve been deeply passionate about large language models (LLMs). In 2024 summer, I began conducting independent research, and I’ve recently submitted papers to **ICLR 2026**.  
 >  
