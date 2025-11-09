@@ -1,12 +1,10 @@
 ## Hi there 👋
 
 
+<!--
 ### 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hhh2210)
-
- Hi! I’m Larry Hao.  
-  
- You can reach me at **hzy2210@gmail.com**.  
+-->
 >  
 > I was a research intern at **Tencent IEG**, where I worked on training large language models (mostly 32B) and developing intelligent agents for practical deployment.
 >  
