@@ -1,6 +1,6 @@
 ## About Me
 
-I'm a research intern at **Tencent IEG** (Summer 2025), where I train large language models (32B scale) and develop intelligent agents for practical deployment.
+I'm a research intern at **Tencent** (Summer 2025 in IEG and spring 2026 in CSIG Code-Buddy)
 
 My research focuses on **reinforcement learning**, **reasoning**, and **LLM-based applications**. 
 
