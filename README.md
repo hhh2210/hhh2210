@@ -1,10 +1,8 @@
 ## About Me
 
-Industry: I'm a research intern at **Tencent** (Summer 2025 in IEG and spring 2026 in CSIG Code-Buddy)
+I'm a former research intern at Tencent, with experience in both IEG and CSIG CodeBuddy.
 
-Academic: My research focuses on **reinforcement learning**, **reasoning**, and **LLM-based applications**. 
+My interests include reinforcement learning, reasoning, and practical LLM systems.  
+I'm particularly interested in bridging research and real-world use cases.
 
-Personal Interest: I'm especially interested in bridging the gap between academic research and real-world use cases.
-
-Potential Collaboration: Always open to collaborations in LLM/ML/RL research or projects, feel free to reach out!
-
+Feel free to reach out if you'd like to collaborate on LLM/ML/RL research or applied projects.
