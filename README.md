@@ -22,7 +22,6 @@ ICLR 2026 paper and codebase on **LLM reasoning**. The project studies Echo of P
 ## Selected Projects
 
 - **echoes-as-anchors** - code for the ICLR 2026 paper on Echo of Prompt, probabilistic costs, and attention refocusing in LLM reasoning.
-- **rtk** - a Rust CLI proxy that reduces LLM agent token consumption by filtering noisy command output before it enters model context.
 - **auto-skill** - a few-shot skill induction prototype for turning examples into reusable AI-agent skills.
 - **CodexBar** - a macOS menu bar utility for OpenAI Codex and Claude Code usage visibility.
 - **Date Match** - zero-budget cold start of a Gen Z relationship-matching product, reaching 100K users in the first 10 days and 170K+ completed tests through organic sharing.
