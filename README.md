@@ -15,7 +15,7 @@ missing. I show the probabilistic cost, trace the information flow, and turn the
 effect into a prompt-time trick that beats baseline under a fixed token budget.
 → https://github.com/hhh2210/echoes-as-anchors · https://openreview.net/forum?id=vndn1Wrult
 
-**Reward Hacking in Rubric-based RL** (CHERRL) — co-first author, EMNLP 2026.
+**Reward Hacking in Rubric-based RL** (CHERRL) — co-first author.
 When an LLM judge hands out the reward, the policy can learn to exploit the
 judge's blind spots instead of actually improving. Real hacking is covert and
 tangled with several biases at once, so we built a controllable sandbox: inject a
