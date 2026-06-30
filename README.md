@@ -1,31 +1,47 @@
-# Larry Hao (Zhuoyuan Hao)
+# Larry Hao (郝卓远)
 
-I work on **LLM reasoning, reinforcement learning, and practical AI systems**. My current research focus is how reasoning models use prompt echoes, attention refocusing, probabilistic anchors, and inference-time reminders during multi-step reasoning.
+CS undergrad at HITSZ, finishing my thesis two semesters early. I work on LLM
+reasoning and RL — why models reason the way they do, and where RL training
+quietly goes wrong — with Jing Li (HITSZ) and Xiaozhi Wang (Tsinghua). In
+between, I intern in industry and ship the occasional product.
 
-## Featured Research
+## Research
 
-### Echoes as Anchors: Probabilistic Costs and Attention Refocusing in LLM Reasoning
+**Echo of Prompt** — first author, ICLR 2026. Reasoning models almost always
+restate the question to themselves before they start reasoning. Everyone filed
+this under "SFT artifact." It's more than that: the echo re-anchors attention and
+keeps a long chain of thought from drifting, and models pay for it when it's
+missing. I show the probabilistic cost, trace the information flow, and turn the
+effect into a prompt-time trick that beats baseline under a fixed token budget.
+→ https://github.com/hhh2210/echoes-as-anchors · https://openreview.net/forum?id=vndn1Wrult
 
-ICLR 2026 paper and codebase on **LLM reasoning**. The project studies Echo of Prompt behavior: when a model repeats or rephrases the original user question inside its reasoning trajectory. The work asks whether prompt echoes are only supervised fine-tuning artifacts, or whether they can act as anchors for attention refocusing and better reasoning.
+**Reward Hacking in Rubric-based RL** (CHERRL) — co-first author, EMNLP 2026.
+When an LLM judge hands out the reward, the policy can learn to exploit the
+judge's blind spots instead of actually improving. Real hacking is covert and
+tangled with several biases at once, so we built a controllable sandbox: inject a
+known bias, reproduce the hack cleanly, and pin down the exact step it starts.
+Then an agent reads the training logs and flags that onset on its own.
+→ https://github.com/THUAIS-Lab/CHERRL · https://arxiv.org/abs/2606.04923
 
-- GitHub: https://github.com/hhh2210/echoes-as-anchors
-- OpenReview: https://openreview.net/forum?id=vndn1Wrult
-- Project page: https://hhh2210.github.io/projects/echoes-as-anchors/
-- Keywords: LLM reasoning, chain-of-thought, Echo of Prompt, echoic prompting, attention refocusing, probabilistic analysis, reasoning probes.
+## Industry
 
-## What I Build
+- **Tencent IEG** (Research Intern, 2025) — built an agentic SRE assistant for
+  the group's internal ops. Wrote the fault-injection and tool-invocation
+  framework it runs in, used SFT-CoT distillation to claw back reasoning, and the
+  model got open-sourced to ModelScope via CAICT.
+- **Tencent CodeBuddy** (Research Intern, 2026) — mid-training data work for
+  Tencent's coding assistant: data-mixing strategies for code usage data, quality
+  rubrics, and knowledge distillation into 8B models.
 
-- **LLM reasoning and evaluation**: mechanisms, prompting, probes, and analysis tools for reasoning trajectories.
-- **Agent and developer tooling**: practical systems around AI coding, token-efficient command output, local model workflows, and Codex/Claude-style agent environments.
-- **Applied AI products**: research ideas that can survive product constraints, user growth, and real usage.
+## Things I've built
 
-## Selected Projects
+- **Date-Match** — co-founder and algorithm lead. A questionnaire-based matching
+  app for young users; 100K+ questionnaires in the first 10 days, 170K+ in a
+  month, all organic across campuses. Now incubating at MiraclePlus (YC China).
+- **auto-skill** — feed it a few examples, get a reusable agent skill back.
+- **CodexBar** — a small macOS menu-bar app for watching Codex / Claude Code usage.
 
-- **echoes-as-anchors** - code for the ICLR 2026 paper on Echo of Prompt, probabilistic costs, and attention refocusing in LLM reasoning.
-- **auto-skill** - a few-shot skill induction prototype for turning examples into reusable AI-agent skills.
-- **CodexBar** - a macOS menu bar utility for OpenAI Codex and Claude Code usage visibility.
-- **Date Match** - zero-budget cold start of a Gen Z relationship-matching product, reaching 100K users in the first 10 days and 170K+ completed tests through organic sharing.
+## Say hi
 
-## Collaboration
-
-I am interested in LLM reasoning, reinforcement learning, agent systems, evaluation, and applied AI products. Reach out for research collaboration, prototype building, or practical AI system work.
+LLM reasoning, RL, agents — happy to talk, happier to build. Got a research idea
+or a prototype that needs to ship? hzy2210@gmail.com
