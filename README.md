@@ -1,5 +1,7 @@
 # Larry Hao (郝卓远)
 
+[Website](https://hhh2210.github.io) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
+
 CS undergrad at HITSZ, finishing my thesis two semesters early. I work on LLM
 reasoning and RL — why models reason the way they do, and where RL training
 quietly goes wrong — with Jing Li (HITSZ) and Xiaozhi Wang (Tsinghua). In
@@ -45,3 +47,7 @@ Then an agent reads the training logs and flags that onset on its own.
 
 LLM reasoning, RL, agents — happy to talk, happier to build. Got a research idea
 or a prototype that needs to ship? hzy2210@gmail.com
+
+---
+
+<img src="./github-metrics.svg" alt="GitHub metrics for hhh2210" width="480">
