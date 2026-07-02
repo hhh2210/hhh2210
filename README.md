@@ -1,6 +1,6 @@
 # Larry Hao (郝卓远)
 
-[Website](https://hhh2210.github.io) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
+[Website](https://hhh2210.github.io) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [CV](https://hhh2210.github.io/assets/files/resume-en.pdf) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
 
 CS undergrad at HITSZ, finishing my thesis two semesters early. I work on LLM
 reasoning and RL — why models reason the way they do, and where RL training
