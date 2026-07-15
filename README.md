@@ -39,7 +39,7 @@ Then an agent reads the training logs and flags that onset on its own.
 
 - **Date-Match** — co-founder and algorithm lead. A questionnaire-based matching
   app for young users; 100K+ questionnaires in the first 10 days, 170K+ in a
-  month, all organic across campuses. Now incubating at MiraclePlus (YC China).
+  month, all organic across campuses.
 - **auto-skill** — feed it a few examples, get a reusable agent skill back.
 - **CodexBar** — a small macOS menu-bar app for watching Codex / Claude Code usage.
 
