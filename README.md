@@ -1,6 +1,8 @@
-# Larry Hao (郝卓远)
+# Zhuoyuan Hao (Larry Hao / 郝卓远)
 
-[Website](https://hhh2210.github.io) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [CV](https://hhh2210.github.io/assets/files/resume-en.pdf) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
+[Website](https://hhh2210.github.io) · [Publications](https://hhh2210.github.io/publications/) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [CV](https://hhh2210.github.io/assets/files/resume-en.pdf) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
+
+I publish papers as **Zhuoyuan Hao** and use **Larry Hao** professionally; both names refer to the same person.
 
 CS undergrad at HITSZ, finishing my thesis two semesters early. I work on LLM
 reasoning and RL — why models reason the way they do, and where RL training
@@ -15,7 +17,7 @@ this under "SFT artifact." It's more than that: the echo re-anchors attention an
 keeps a long chain of thought from drifting, and models pay for it when it's
 missing. I show the probabilistic cost, trace the information flow, and turn the
 effect into a prompt-time trick that beats baseline under a fixed token budget.
-→ https://github.com/hhh2210/echoes-as-anchors · https://openreview.net/forum?id=vndn1Wrult
+→ [evidence page](https://hhh2210.github.io/papers/echoes-as-anchors/) · [code](https://github.com/hhh2210/echoes-as-anchors) · [OpenReview](https://openreview.net/forum?id=vndn1Wrult)
 
 **Reward Hacking in Rubric-based RL** (CHERRL) — co-first author.
 When an LLM judge hands out the reward, the policy can learn to exploit the
@@ -23,7 +25,7 @@ judge's blind spots instead of actually improving. Real hacking is covert and
 tangled with several biases at once, so we built a controllable sandbox: inject a
 known bias, reproduce the hack cleanly, and pin down the exact step it starts.
 Then an agent reads the training logs and flags that onset on its own.
-→ https://github.com/THUAIS-Lab/CHERRL · https://arxiv.org/abs/2606.04923
+→ [project summary](https://hhh2210.github.io/projects/cherrl/) · [code](https://github.com/THUAIS-Lab/CHERRL) · [arXiv](https://arxiv.org/abs/2606.04923)
 
 ## Industry
 
