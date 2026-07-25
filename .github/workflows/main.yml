@@ -31,7 +31,7 @@ jobs:
           config_timezone: Asia/Hong_Kong
           # Impact-first ordering: contribution calendar -> external PRs -> notable repos,
           # then the weaker "how many repos do I own" stats. Omitted partials are appended.
-          config_order: base.header, base.activity+community, isocalendar, followup, notable, base.repositories, lines, languages, activity
+          config_order: base.header, base.activity+community, isocalendar, followup, notable, base.repositories, lines, languages
 
           # 342/365 active days, 2077 contributions over the last year
           plugin_isocalendar: yes
@@ -39,14 +39,15 @@ jobs:
 
           plugin_lines: yes
           plugin_lines_sections: base
+          # repos/*/stats/contributors returns 202 while GitHub computes the stats;
+          # the delay makes the plugin query twice so the second pass gets real numbers
+          plugin_lines_delay: 60
 
-          # Proof that the external contributions are still happening now.
-          # visibility=public so private-repo activity never leaks into the card.
-          plugin_activity: yes
-          plugin_activity_limit: 4
-          plugin_activity_days: 0
-          plugin_activity_filter: pr, release, review
-          plugin_activity_visibility: public
+          # plugin_activity is DISABLED: upstream metrics crashes on any PushEvent
+          # because GitHub removed `commits`/`size` from the Events API payload
+          # (source/plugins/activity/index.mjs:140 -> commits.filter of undefined).
+          # Re-enable once that is patched upstream.
+          plugin_activity: no
 
           plugin_followup: yes
           plugin_followup_archived: yes
