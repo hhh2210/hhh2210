@@ -29,6 +29,25 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Hong_Kong
+          # Impact-first ordering: contribution calendar -> external PRs -> notable repos,
+          # then the weaker "how many repos do I own" stats. Omitted partials are appended.
+          config_order: base.header, base.activity+community, isocalendar, followup, notable, base.repositories, lines, languages, activity
+
+          # 342/365 active days, 2077 contributions over the last year
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_lines: yes
+          plugin_lines_sections: base
+
+          # Proof that the external contributions are still happening now.
+          # visibility=public so private-repo activity never leaks into the card.
+          plugin_activity: yes
+          plugin_activity_limit: 4
+          plugin_activity_days: 0
+          plugin_activity_filter: pr, release, review
+          plugin_activity_visibility: public
+
           plugin_followup: yes
           plugin_followup_archived: yes
           # "user" = issues/PRs I opened anywhere on GitHub (external contributions)
