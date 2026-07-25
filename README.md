@@ -45,6 +45,18 @@ Then an agent reads the training logs and flags that onset on its own.
 - **auto-skill** — feed it a few examples, get a reusable agent skill back.
 - **CodexBar** — a small macOS menu-bar app for watching Codex / Claude Code usage.
 
+## Upstream
+
+87 merged pull requests across 17 repositories. The ones with some weight behind
+them: [Mole](https://github.com/tw93/Mole) (60k★, 3 merged),
+[CodexBar](https://github.com/steipete/CodexBar) (19k★, 22 merged),
+[Sub-Store](https://github.com/sub-store-org/Sub-Store) (10k★, 2 merged),
+[mlx-audio](https://github.com/Blaizzy/mlx-audio) (7.6k★, 2 merged),
+[clash-for-linux](https://github.com/wnlen/clash-for-linux) (5.7k★, 1 merged) and
+[tectonic](https://github.com/tectonic-typesetting/tectonic) (5k★, 2 merged).
+Still open in [cc-switch](https://github.com/farion1231/cc-switch) (121k★) and
+[lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) (13k★).
+
 ## Say hi
 
 LLM reasoning, RL, agents — happy to talk, happier to build. Got a research idea
