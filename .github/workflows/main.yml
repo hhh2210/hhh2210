@@ -42,7 +42,7 @@ jobs:
           config_timezone: Asia/Hong_Kong
           # Impact-first ordering: contribution calendar -> external PRs -> notable repos,
           # then the weaker "how many repos do I own" stats. Omitted partials are appended.
-          config_order: base.header, base.activity+community, isocalendar, followup, notable, base.repositories, lines, languages, activity
+          config_order: base.header, base.activity+community, isocalendar, followup, notable, base.repositories, lines, languages
 
           # 342/365 active days, 2077 contributions over the last year
           plugin_isocalendar: yes
@@ -53,13 +53,14 @@ jobs:
           # No plugin_lines_delay needed: the fork retries the repositories still
           # answering 202 instead of making the user guess a delay
 
-          # Proof that the external contributions are still happening now.
-          # visibility=public so private-repo activity never leaks into the card.
-          plugin_activity: yes
-          plugin_activity_limit: 4
-          plugin_activity_days: 0
-          plugin_activity_filter: pr, release, review
-          plugin_activity_visibility: public
+          # plugin_activity stays OFF. The fork no longer crashes on it, but GitHub
+          # has gutted the Events API payloads: PullRequestEvent.pull_request now
+          # carries only {base, head, id, number, url} -- no user, title, merged flag
+          # or line counts -- so the plugin renders "No recent activity", which reads
+          # worse than having no section at all. Restoring it needs one REST call per
+          # event to rehydrate the PR, which is not worth it while followup + notable
+          # already tell the same story.
+          plugin_activity: no
 
           plugin_followup: yes
           plugin_followup_archived: yes
