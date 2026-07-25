@@ -1,14 +1,18 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (daily at 00:00 UTC)
-  schedule: [{cron: "0 0 * * *"}]
+  # Weekly, Monday 00:00 UTC. Running our own fork means the docker image is
+  # rebuilt from source on every run, so daily is not worth the runner time.
+  schedule: [{cron: "0 0 * * 1"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    # The image build has hung silently before (puppeteer postinstall); without this
+    # a stuck run burns the 6h default before anyone notices
+    timeout-minutes: 40
     permissions:
       contents: write
     steps:
