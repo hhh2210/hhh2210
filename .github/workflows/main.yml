@@ -31,7 +31,13 @@ jobs:
           config_timezone: Asia/Hong_Kong
           plugin_followup: yes
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          # "user" = issues/PRs I opened anywhere on GitHub (external contributions)
+          # "repositories" = issues/PRs filed on my own repos
+          plugin_followup_sections: user, repositories
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
