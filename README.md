@@ -1,6 +1,6 @@
 # Zhuoyuan Hao (Larry Hao / 郝卓远)
 
-[Website](https://hhh2210.github.io) · [Publications](https://hhh2210.github.io/publications/) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [CV](https://hhh2210.github.io/assets/files/resume-en.pdf) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
+[Website](https://www.alphaxiv.org/@zhuoyuan-hao) · [Publications](https://hhh2210.github.io/publications/) · [Google Scholar](https://scholar.google.com/citations?user=hjooI9QAAAAJ) · [X](https://x.com/larryhaonlp) · [CV](https://hhh2210.github.io/assets/files/resume-en.pdf) · [hzy2210@gmail.com](mailto:hzy2210@gmail.com)
 
 I publish papers as **Zhuoyuan Hao** and use **Larry Hao** professionally; both names refer to the same person.
 
