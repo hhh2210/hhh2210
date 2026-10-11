@@ -4,7 +4,7 @@
 
 I publish papers as **Zhuoyuan Hao** and use **Larry Hao** professionally; both names refer to the same person.
 
-CS undergrad at HITSZ, finishing my thesis two semesters early. I work on LLM
+CS undergrad at HITSZ(23-26), Mphill at HKUST. I work on LLM
 reasoning and RL — why models reason the way they do, and where RL training
 quietly goes wrong — with Jing Li (HITSZ) and Xiaozhi Wang (Tsinghua). In
 between, I intern in industry and ship the occasional product.
