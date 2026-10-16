@@ -41,7 +41,6 @@ I'd rather fix the tool than work around it, and then send the fix upstream.
 | [tectonic](https://github.com/tectonic-typesetting/tectonic) · 5k★ | 2 merged PRs |
 | [WeatherKit](https://github.com/NSRingo/WeatherKit) (iRingo) | Credited contributor, 15 commits: next-hour forecasts ahead of the iOS 27 cutoff, air-quality scale migration, daily precipitation totals |
 | [magpie](https://github.com/yetone/magpie) | Co-authored with the maintainer: saved Claude accounts refresh their allowance without switching |
-| [mihomo](https://github.com/MetaCubeX/mihomo) | [In review](https://github.com/MetaCubeX/mihomo/pull/3307): SOCKS5 replies to CONNECT only after the outbound dial succeeds |
 
 ## Industry
 
