@@ -9,7 +9,7 @@ student at **HKUST**. I study the mechanisms behind LLM reasoning: why models
 reason the way they do, and how RL post-training quietly breaks them. Outside
 research I contribute upstream a lot: **87 merged PRs across 17 repositories**,
 plus code co-authored with maintainers.
-
+[![GitHub Roast 评分卡](https://ghfind.com/api/card/mini/hhh2210)](https://ghfind.com/u/hhh2210?ref=badge)
 ## Research
 
 **Echo of Prompt** · first author, ICLR 2026. Reasoning models almost always
